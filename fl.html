@@ -4,109 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="bg.css">
-    <style>
-        html {
-            box-sizing: fullscreen;
-        }
-        *,
-        *:after,
-        *:before {
-            box-sizing: inherit;
-        }
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font: 18px 'white', Helvetica;
-            background: #fff;
-        }
-        header {
-            height: 60px;
-            background: #512DA8;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            padding: 0 40px;
-            box-shadow: 1px 2px 6px 0px #777;
-        }
-        .banner {
-            text-decoration: none;
-            color: #fff;
-            cursor: pointer;
-        }
-        button {
-            background: #512DA8;
-            border: 2px solid #512DA8;
-            cursor: pointer;
-            box-shadow: 1px 1px 3px 0px #777;
-            color: #fff;
-            padding: 10px 15px;
-            border-radius: 20px;
-        }
-        .button {
-            display: flex;
-            justify-content: center;
-        }
-        button:hover {
-            box-shadow: none;
-        }
-        footer {
-            height: 40px;
-            margin-top: 30px;
-            background: #2d3850;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            padding: 40px;
-        }
-    </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="func.js"></script>
     <title>Формулы по физики</title>
 </head>
-<body style="color:#ffffff">
 <body>
-        <header>
-        <h3><a class="banner" href="index.html">Главная страница</a></h3>
-        </header>
-<style>
-
-   div {
-    padding:0 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 115%;
-   } 
-   h1 {
-    padding:0 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 250%;
-   } 
-   h4 {
-    padding:0 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10%;
-   } 
-   p {
-    padding:0 20px;
-    font-color: 'white';
-    font-family: 'Times New Roman', sans-serif; 
-    font-size: 20px;
-   }
-</style>
+<body>
+  <header>
+    <h3><a class="banner" href="index.html">Главная страница</a></h3>
+  </header>
 <p>Закон Ома для участка цепи</p>
-    <div class="form-group col-md-3">
-      <label for="napr">Напряжение (Вольт):</label>
-      <input type="text" class="form-control" id="napr" onkeyup="I()">
-    </div>
+  <div class="form-group col-md-3">
+    <label for="napr">Напряжение (Вольт):</label>
+    <input type="text" class="form-control" id="napr" onkeyup="I()">
+  </div>
 <p></p>
-    <div class="form-group col-md-3">
-      <label for="R">Сопротивлению данного участка цепи (Ом):</label>
+  <div class="form-group col-md-3">
+    <label for="R">Сопротивлению данного участка цепи (Ом):</label>
       <input type="text" class="form-control" id="R" onkeyup="I()">
-    </div>
+  </div>
 <p></p>
-<div class="form-group col-md-3">
-      <label for="I">Сила тока (Амперы):</label>
-      <input type="text" class="form-control" id="I" onkeyup="I()">
-    </div>
+  <div class="form-group col-md-3">
+    <label for="I">Сила тока (Амперы):</label>
+    <input type="text" class="form-control" id="I" onkeyup="I()">
+  </div>
 <h1></h1>
 <p>Скорость движения</p>
     <div class="form-group col-md-3">
@@ -140,8 +61,6 @@
       <input type="text" class="form-control" id="p" onkeyup="p()">
     </div>
 <h1></h1>
-    <script src="renderer.js"></script>
-<script>document.body.style.backgroundImage = 'url(https://oir.mobi/uploads/posts/2021-02/1612201494_27-p-krasivii-fon-dlya-fiziki-44.jpg)';</script>
 <h1></h1>
 <p>Длина волны</p>
     <div class="form-group col-md-3">
@@ -158,11 +77,9 @@
       <label for="p">Длина волны (метры):</label>
       <input type="text" class="form-control" id="l" onkeyup="l()">
     </div>
-    <script src="renderer.js"></script>
-<script>document.body.style.backgroundImage = 'url(https://oir.mobi/uploads/posts/2021-02/1612201494_27-p-krasivii-fon-dlya-fiziki-44.jpg)';</script>
-        <footer>
-            <span>2021</span>
-        </footer>
+<footer>
+  <span>2021</span>
+</footer>
 </body>
 </body>
 </html>
