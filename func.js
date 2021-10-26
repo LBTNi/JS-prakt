@@ -1,6 +1,6 @@
 function celciusToFahrenheit(){
-    let celcius = document.getElementById('celcius').value;
-    let fahrenheit = (celcius * 9 / 5) + 32;
+    const celcius = document.getElementById('celcius').value;
+    const fahrenheit = (celcius * 9 / 5) + 32;
     document.getElementById('fahrenheit').value = fahrenheit;
 }
 function fahrenheitToCelcius(){
