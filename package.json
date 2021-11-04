@@ -1,17 +1,13 @@
 {
-  "name": "js",
+  "name": "js-praktik",
   "version": "1.0.0",
-  "description": "",
-  "main": "func.js",
   "scripts": {
-    "browsersync": "browser-sync start --server --files"
+    "serv": "browser-sync start --server --files"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LBTNi/JS-prakt.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/LBTNi/JS-prakt/issues"
   },
